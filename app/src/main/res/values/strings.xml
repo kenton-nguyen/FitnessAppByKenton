@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fitness App by Kenton</string>
+
+    <string-array name="workout_types">
+        <item>Select value</item>
+        <item>Chest</item>
+        <item>Back</item>
+        <item>Arms</item>
+        <item>Legs</item>
+        <item>Shoulders</item>
+    </string-array>
+
+</resources>
