@@ -28,8 +28,11 @@ public class Activity2 extends AppCompatActivity {
         mySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                if(i == 1){
+                if (i == 1){
                     startActivity(new Intent(Activity2.this, ChestActivity.class));
+                }
+                if (i == 2){
+                    startActivity(new Intent(Activity2.this, BackActivity.class));
                 }
 
             }

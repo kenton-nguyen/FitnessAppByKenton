@@ -20,7 +20,7 @@
         android:layout_marginTop="98dp"
         android:layout_marginEnd="85dp"
         android:layout_marginRight="85dp"
-        android:text="Give me a random chest workout!" />
+        android:text="Give me a random back workout!" />
 
     <TextView
         android:id="@+id/chestWorkout"
@@ -32,6 +32,6 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="235dp"
-        android:text="Chest workout will be displayed here after pressing the button above."
+        android:text="Back workout will be displayed here after pressing the button above."
         android:textSize="20dp" />
 </RelativeLayout>

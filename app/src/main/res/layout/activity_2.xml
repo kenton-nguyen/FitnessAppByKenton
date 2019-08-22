@@ -29,5 +29,19 @@
         android:layout_marginBottom="398dp"
         android:entries="@array/workout_types" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="385dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginBottom="51dp"
+        android:textSize="12dp"
+        android:text="Note: Set and rep ranges should be determined based on your goals. To train for strength and muscle mass,do heavier weight but with less reps; for example, a 5x5 (5 sets of 5). For muscular endurace, do more reps with lower weights; for example, a 3x12 (3 sets of 12 reps). For supersets, I typically am in the higher rep range with lower weight. Exercises are done in the listed order."
+        />
+
 
 </RelativeLayout>
