@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 public class Activity2 extends AppCompatActivity {
 
@@ -28,11 +29,20 @@ public class Activity2 extends AppCompatActivity {
         mySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                if (i == 1){
+                if (i==1){
                     startActivity(new Intent(Activity2.this, ChestActivity.class));
                 }
-                if (i == 2){
+                if (i==2){
                     startActivity(new Intent(Activity2.this, BackActivity.class));
+                }
+                if (i==3){
+                    startActivity(new Intent(Activity2.this, ArmActivity.class));
+                }
+                if (i==4){
+                    startActivity(new Intent(Activity2.this, LegsActivity.class));
+                }
+                if (i==5){
+                    startActivity(new Intent(Activity2.this, ShouldersActivity.class));
                 }
 
             }

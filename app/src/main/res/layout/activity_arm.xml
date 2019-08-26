@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="241dp"
+        android:layout_height="81dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -17,10 +17,10 @@
         android:layout_alignParentRight="true"
         android:layout_marginStart="84dp"
         android:layout_marginLeft="84dp"
-        android:layout_marginTop="147dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginRight="100dp"
-        android:text="Give me a random chest workout!" />
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:text="Give me a random arm workout!" />
 
     <TextView
         android:id="@+id/chestWorkout"
@@ -32,22 +32,6 @@
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="235dp"
-        android:text="Back workout will be displayed here after pressing the button above."
+        android:text="Arm workout will be displayed here after pressing the button above."
         android:textSize="20dp" />
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="22dp"
-        android:layout_marginLeft="22dp"
-        android:layout_marginTop="65dp"
-        android:ems="10"
-        android:gravity="center"
-        android:inputType="textPersonName"
-        android:text="BACK"
-        android:textSize="30dp" />
 </RelativeLayout>

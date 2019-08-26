@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -44,6 +45,16 @@ public class ChestActivity extends AppCompatActivity {
                 // generate random workouts
                 final int randomChest = (int) (Math.random() * 4); // ending number is how many items in the array
                 chestText.setText(chestWorkouts[randomChest]);
+            }
+        });
+
+        // add a connection to a separate page that shows how to do each exercise listed
+        final TextView txtView = this.findViewById(R.id.chestDemo);
+        txtView.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                ChestActivity.this.startActivity(new Intent(ChestActivity.this, chestDemo.class));
             }
         });
     }

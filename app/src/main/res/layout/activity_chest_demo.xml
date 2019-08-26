@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <view
+        android:id="@+id/youtubePlayer"
+        class="com.google.android.youtube.player.YouTubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="126dp" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="136dp"
+        android:layout_height="81dp"
+        android:layout_below="@id/youtubePlayer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="380dp"
+        android:text="PLAY" />
+
+    <TextView
+        android:id="@+id/Note"
+        android:layout_width="329dp"
+        android:layout_height="207dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="537dp"
+        android:text="Demonstrations for the given exercises can be found in this compiled playlist."
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/chestDemoTitle"
+        android:layout_width="389dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="21dp"
+        android:gravity="center"
+        android:text="CHEST EXERCISES DEMONSTRATIONS"
+        android:textSize="20dp" />
+</RelativeLayout>
