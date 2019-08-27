@@ -17,22 +17,22 @@ public class ChestActivity extends AppCompatActivity {
 
         // display chest workouts
         final TextView chestText = (TextView) findViewById(R.id.chestWorkout);
-        final String[] chestWorkouts = {"Barbell bench press\nIncline dumbbell press " +
+        final String[] chestWorkouts = { "                -------- WORKOUT 1 --------\n- Barbell bench press\n- Incline dumbbell press " +
                 "superset with incline dumbbell flies" +
-                "\nDecline chest press (hammer strength)\nMachine dips\nCable fly (mid chest)",
+                "\n- Decline chest press (hammer strength)\n- Machine dips\n- Cable fly (mid chest)",
 
-                "Incline barbell press\nFlat dumbbell press superset " +
+                "                -------- WORKOUT 2 --------\n - Incline barbell press\n- Flat dumbbell press superset " +
                 "with chest press with a weight plate\n" +
-                "Bodyweight dips\nMachine chest fly\nCable fly (low to high)",
+                "- Bodyweight dips\n- Machine chest fly\n- Cable fly (low to high)",
 
-                "Decline barbell press\nIncline chest press (hammer strength)\n" +
-                        "Standing dumbbell fly (low to high)\n" +
-                        "Chest push downs on assisted pull-up/dip machine\n" +
-                "Chest press machine (mid chest)\n" + "Cable fly (high to low)\n",
+                "                -------- WORKOUT 3 --------\n- Decline barbell press\n- Incline chest press (hammer strength)\n" +
+                        "- Standing dumbbell fly (low to high)\n" +
+                        "- Chest push downs on assisted pull-up/dip machine\n" +
+                "- Chest press machine (mid chest)\n" + "- Cable fly (high to low)\n",
 
-                "Dumbbell flat press superset with plate press\n" +
-                        "Incline press (hammer strength)\n" +
-                        "Bench dips\n" + "Dumbbell pullover\n" + "Cable fly (mid chest)",
+                "                -------- WORKOUT 4 ---------\n- Dumbbell flat press superset with plate press\n" +
+                        "- Incline press (hammer strength)\n" +
+                        "- Bench dips\n" + "- Dumbbell pullover\n" + "- Cable fly (mid chest)",
 
                                                                                 };
 

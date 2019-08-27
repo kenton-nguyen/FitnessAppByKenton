@@ -29,7 +29,7 @@ public class chestDemo extends YouTubeBaseActivity {
         mOnInitializedListener = new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-                youTubePlayer.loadPlaylist("PLvD1E8X4SsD_-6536FCariRvD_urSozX9");
+                youTubePlayer.loadPlaylist("PLTjIA2WUypJdE-0p5DRyLyMB_gJ4Pqnar");
             }
 
             @Override

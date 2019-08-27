@@ -15,11 +15,11 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="84dp"
-        android:layout_marginLeft="84dp"
-        android:layout_marginTop="147dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginRight="100dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="98dp"
         android:text="Give me a random chest workout!" />
 
     <TextView
@@ -29,10 +29,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="235dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="200dp"
         android:text="Chest workout will be displayed here after pressing the button above."
+        android:textColor="#000000"
         android:textSize="20dp" />
 
     <EditText
@@ -42,9 +43,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="22dp"
-        android:layout_marginLeft="22dp"
-        android:layout_marginTop="65dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="30dp"
         android:ems="10"
         android:gravity="center"
         android:inputType="textPersonName"
@@ -53,16 +54,63 @@
 
     <TextView
         android:id="@+id/chestDemo"
-        android:layout_width="372dp"
-        android:layout_height="44dp"
+        android:layout_width="227dp"
+        android:layout_height="79dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="27dp"
-        android:layout_marginRight="27dp"
-        android:layout_marginBottom="31dp"
+        android:layout_marginEnd="209dp"
+        android:layout_marginRight="209dp"
+        android:layout_marginBottom="94dp"
         android:gravity="center"
+        android:text="WORKOUT 1 EXERCISE DEMONSTRATIONS"
         android:textColor="#0000ff"
-        android:text="Click for exercise demonstrations!"
-        android:textSize="15dp" />
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/chestDemo2"
+        android:layout_width="190dp"
+        android:layout_height="63dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="199dp"
+        android:layout_marginLeft="199dp"
+        android:layout_marginBottom="104dp"
+        android:gravity="center"
+        android:text="WORKOUT 2 EXERCISE DEMONSTRATIONS"
+        android:textColor="#0000ff"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/chestDemo3"
+        android:layout_width="156dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="33dp"
+        android:gravity="center"
+        android:text="WORKOUT 3 EXERCISE DEMONSTRATIONS"
+        android:textColor="#0000ff"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/chestDemo4"
+        android:layout_width="177dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="204dp"
+        android:layout_marginLeft="204dp"
+        android:layout_marginBottom="35dp"
+        android:gravity="center"
+        android:text="WORKOUT 4 EXERCISE DEMONSTRATIONS"
+        android:textColor="#0000ff"
+        android:textSize="12dp" />
+
+
 </RelativeLayout>
